@@ -1,0 +1,46 @@
+{
+    "api": {
+        "privateKey": "sdECFST3tvth0MXaY8aRUzMnUeZ+Rm+g=",
+        "publicKey": "+feieu1qGLEC/nXrP/srvzjwD7aAf3uOlQ="
+    },
+    "trading": {
+        "tradingCoin": "BTC",
+        "maxDropPercentage": 3,
+        "totalAmount": 90,
+        "orderCount": 3,
+        "incrementPercentage": 10,
+        "takeProfitPercentage": 0.1
+    },
+    "actions": {
+        "sellNonUsdcAssets": true,
+        "cancelAllOrders": true,
+        "restartAfterTakeProfit": true,
+        "autoRestartNoFill": true
+    },
+    "advanced": {
+        "minOrderAmount": 10,
+        "priceTickSize": 0.01,
+        "checkOrdersIntervalMinutes": 10,
+        "monitorIntervalSeconds": 30,
+        "sellNonUsdcMinValue": 10,
+        "noFillRestartMinutes": 3
+    },
+    "quantityPrecisions": {
+        "BTC": 5,
+        "ETH": 4,
+        "SOL": 2,
+        "DEFAULT": 2
+    },
+    "pricePrecisions": {
+        "BTC": 0,
+        "ETH": 2,
+        "SOL": 2,
+        "DEFAULT": 2
+    },
+    "minQuantities": {
+        "BTC": 0.00001,
+        "ETH": 0.001,
+        "SOL": 0.01,
+        "DEFAULT": 0.1
+    }
+} 
